@@ -1,0 +1,94 @@
+<app-navigation></app-navigation>
+<app-headerbanner></app-headerbanner>
+
+<div class="container">
+  <div class="rate-message">
+    <div class="avatarr">
+      <img [src]="safaricom" alt="Profile" />
+    </div>
+
+    <h1 class="rate-your-experience">Rate your experience with the business</h1>
+    <p class="are-you-satisfied">Are you satisfied with our service?</p>
+    <p class="additionally-you-ll">
+      <span class="text-wrapper">
+        Alternatively, you can search and leave a review for another business
+        <strong
+          ><a href="/dashboard"><span>here</span></a></strong
+        >
+      </span>
+    </p>
+    
+
+    <div class="container">
+    <div class="search_bar">
+      <input type="search" placeholder="Search for a Business, charity..." />
+      <select name="">
+        <option>Category</option>
+        <option>Charity</option>
+        <option>Internet provider</option>
+        <option>Branding</option>
+        <option>Web development</option>
+      </select>
+      <select class="filter">
+        <option>Registered</option>
+        <option>Accredited</option>
+        <option>Certified</option>
+      </select>
+    </div>
+    <div class="tags_bar">
+      <div class="tag">
+        <i class="fas fa-times"></i>
+        <span>Charity</span>
+      </div>
+      <div class="tag">
+        <i class="fas fa-times"></i>
+        <span>Banking</span>
+      </div>
+      <div class="tag">
+        <i class="fas fa-times"></i>
+        <span>Internet</span>
+      </div>
+      <div class="tag">
+        <i class="fas fa-times"></i>
+        <span>Photography</span>
+      </div>
+    </div>
+    </div>
+  
+
+    
+
+    <div class="ratings">
+      <ng-container *ngFor="let starIndex of [1, 2, 3, 4, 5]">
+        <span
+          class="star-icon"
+          [class.filled]="starIndex <= rating"
+          [style.color]="starIndex <= rating ? '#F78431' : 'gray'"
+          [style.fontSize.px]="50"
+          (click)="handleRatingChange(starIndex)"
+        >
+          &#9733;
+        </span>
+      </ng-container>
+    </div>
+
+    <textarea
+      class="form-control"
+      placeholder="Leave a comment..."
+      required
+      rows="3"
+      [value]="comment"
+      (input)="handleCommentChange($event)"
+    ></textarea>
+
+    <app-button
+      text="Submit"
+      (click)="handleSubmit()"
+      [icon]="'fa fa-paper-plane'"
+      size="medium"
+      [disabled]="false"
+    ></app-button>
+  </div>
+</div>
+
+<app-footer></app-footer>

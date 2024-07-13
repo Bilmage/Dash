@@ -1,0 +1,115 @@
+.features {
+  align-items: center;
+  display: flex;
+  gap: 55.6px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+}
+.features .widget {
+  align-items: center;
+  background-color: #63ccca;
+  border-radius: 18.53px;
+  box-shadow: 0px 3.71px 9.27px #29cc3908;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 278px;
+  justify-content: space-between;
+  padding: 27.8px 37.07px 37.07px;
+  position: relative;
+  width: auto;
+}
+
+.features .head {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.features .pages {
+  color: #fff;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 22.2px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 37.1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.features .text-wrapper {
+  color: #fff;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 40.8px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 55.6px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.features .footer {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 14.83px;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.features .img {
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.features .div {
+  align-items: center;
+  background-color: #42858c;
+  border-radius: 18.53px;
+  box-shadow: 0px 3.71px 9.27px #8833ff08;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 278px;
+  justify-content: space-between;
+  padding: 27.8px 37.07px 37.07px;
+  position: relative;
+}
+
+.features .footer-2 {
+  align-self: stretch;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.features .widget-2 {
+  align-items: center;
+  background-color: #f78431;
+  border-radius: 18.53px;
+  box-shadow: 0px 3.71px 9.27px #ff663308;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 278px;
+  justify-content: space-between;
+  padding: 27.8px 37.07px 37.07px;
+  position: relative;
+}

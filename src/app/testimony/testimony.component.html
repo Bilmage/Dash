@@ -1,0 +1,28 @@
+<app-header [mainText]="'Featured'" [secondaryText]="'Reviews'"></app-header>
+<div class="container">
+  <div class="slider">
+    <input
+      type="radio"
+      name="testimonial"
+      id="{{ item.id }}"
+      *ngFor="let item of testimonialItems"
+      defaultChecked
+    />
+    <div class="testimonials mb-8">
+      <label class="item" [for]="item.id" *ngFor="let item of testimonialItems">
+        <div class="mycard">
+          <p class="cardtitle">{{ item.title }}</p>
+          <div>
+            <img [src]="item.imageUrl" [alt]="item.title" class="cardimg" />
+          </div>
+          <div>
+            <p class="carddescription">{{ item.description }}</p>
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="dots">
+      <label [for]="item.id" *ngFor="let item of testimonialItems"></label>
+    </div>
+  </div>
+</div>

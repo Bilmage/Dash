@@ -1,0 +1,106 @@
+<div class="container-fluid">
+  <div
+    class="navigation"
+    [ngClass]="{ 'sidebar-open': isSidebarOpen && isSmallScreen }"
+  >
+    <a [routerLink]="['/']">
+      <div class="logo">
+        <!-- Your logo content here -->
+      </div>
+    </a>
+    <button
+      class="toggle-sidebar-btn"
+      *ngIf="isSmallScreen"
+      (click)="toggleSidebar()"
+    >
+      <i class="fa fa-bars"></i>
+    </button>
+    <div
+      class="sidebar-backdrop"
+      *ngIf="isSidebarOpen && isSmallScreen"
+      (click)="(toggleSidebar)"
+    ></div>
+    <app-sidebar
+      [isOpen]="isSidebarOpen"
+      (onClose)="toggleSidebar()"
+    ></app-sidebar>
+    <div class="nav-item" [ngClass]="{ hidden: isSmallScreen }">
+      <ng-container *ngFor="let item of navigationItems; let i = index">
+        <div class="nav-item">
+          <a
+            [routerLink]="item.path"
+            (click)="isSmallScreen ? handleToggleDropdown() : undefined"
+          >
+            {{ item.label }}
+          </a>
+        </div>
+      </ng-container>
+      <div>
+        <a
+          [routerLink]="['/businessregistration']"
+          (click)="isSmallScreen ? handleToggleDropdown() : undefined"
+        >
+          <app-button
+            text="Register your Business"
+            [icon]="'fa-plus'"
+            size="small"
+          ></app-button>
+        </a>
+      </div>
+      &nbsp; &nbsp;
+      <div>
+        <a
+          [routerLink]="['/signup']"
+          (click)="isSmallScreen ? handleToggleDropdown() : undefined"
+        >
+          <app-button
+            text="Sign up"
+            [icon]="'fas fa-user-plus'"
+            size="small"
+            [disabled]="false"
+          ></app-button>
+        </a>
+      </div>
+      &nbsp; &nbsp;
+      <div>
+        <a
+          [routerLink]="['/signin']"
+          (click)="isSmallScreen ? handleToggleDropdown() : undefined"
+        >
+          <app-button
+            text="Sign in"
+            [icon]="'fas fa-sign-in-alt'"
+            size="small"
+            [disabled]="false"
+          ></app-button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- when Auth is true -->
+<!-- <div >
+    <div class="d-flex flex-row w-100">
+      <div class="dropdown">
+        <a href="#" role="button" id="avatar-dropdown" (click)="isSmallScreen ? handleToggleDropdown() : undefined">
+          <img src="https://robohash.org/mail@ashallendesign.co.uk" alt="avatar-img" class="avatar-logo">
+        </a>
+        <ul class="dropdown-menu" [ngClass]="{ 'show': isSidebarOpen }" aria-labelledby="avatar-dropdown">
+          <li>
+            <a href="#" class="logout-link">Logout</a>
+            <a href="#" class="logout-link">Dashboard</a>
+          </li>
+          <li>
+            <a class="logout-link">Dashboard</a>
+          </li>
+        </ul>
+      </div>
+      <p class="welcome-text">Welcome john doe!</p>
+    </div>
+  </div>
+  <div #notAuthenticated>
+    <div class="container">
+      
+    </div>
+  </div> -->

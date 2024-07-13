@@ -1,0 +1,113 @@
+.about-headline-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12.44px;
+  height: 169px;
+  justify-content: center;
+  padding: 0px 2.49px 0px 0px;
+  position: relative;
+  width: 620px;
+}
+@media (max-width: 768px) {
+  .about-headline-text {
+    font-size: 1.25rem;
+    width: 300px;
+  }
+}
+.about-headline-text .headline {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 18.66px;
+  padding: 6.22px;
+  position: relative;
+}
+
+.about-headline-text .smalline {
+  height: 94.52px;
+  margin-left: -3.11px;
+  min-width: 6.22px;
+  position: relative;
+}
+
+.about-headline-text .we-build-bridges {
+  color: transparent;
+  flex: 1;
+  font-family: 'Inter-Bold', Helvetica;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 43.5px;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .about-headline-text .we-build-bridges {
+    font-size: 1.25rem;
+  }
+}
+
+.about-headline-text .text-wrapper {
+  color: #a95b1f;
+}
+
+.about-headline-text .span {
+  color: #35393cff;
+}
+
+.about-headline-text .text-wrapper-2 {
+  color: #f78431;
+}
+/** about-text **/
+
+.about-text {
+  align-items: center;
+  display: flex;
+  gap: 7.61px;
+  height: 129px;
+  justify-content: center;
+  padding: 7.61px;
+  position: relative;
+  width: 456px;
+}
+@media (max-width: 768px) {
+  .about-text {
+    width: 300px;
+  }
+}
+.about-text .paragraph {
+  color: #5c6670;
+  flex: 1;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 25.9px;
+  margin-top: -0.7px;
+  position: relative;
+  margin-left: 10px;
+  letter-spacing: 0.05em;
+}
+@media (max-width: 768px) {
+  .about-text .paragraph {
+    font-size: 14px;
+  }
+}
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 300px;
+  }
+}

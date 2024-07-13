@@ -1,0 +1,99 @@
+/**VisionText**/
+.vision-text {
+  align-items: flex-start;
+  display: flex;
+  gap: 38.47px;
+  height: 276px;
+  padding: 8.47px;
+  position: relative;
+  width: 800px;
+  height: auto;
+}
+
+.vision-text .paragraph {
+  color: #5c6670;
+  flex: 1;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 25.9px;
+  margin-top: -0.7px;
+  position: relative;
+  text-align: left;
+  margin-left: 10px;
+  letter-spacing: 0.05em;
+}
+@media (max-width: 768px) {
+  .vision-text .paragraph {
+    font-size: 14px;
+  }
+}
+/**VisionHeadline**/
+.vision-headline-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16.11px;
+  /* height: 218px; */
+  justify-content: center;
+  position: relative;
+  /* width: 250px; */
+}
+
+.vision-headline-text .headline {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 8.06px;
+  padding: 8.06px;
+  position: relative;
+}
+
+.vision-headline-text .our-vision {
+  color: transparent;
+  flex: 1;
+  font-family: 'Poppins-Bold', Helvetica;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 56.4px;
+  margin-top: 0.81px;
+  position: relative;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .vision-headline-text .our-vision {
+    font-size: 1.25rem;
+  }
+}
+
+.vision-headline-text .text-wrapper {
+  color: #a95b1f;
+}
+
+.vision-headline-text .span {
+  color: #000000;
+}
+
+.vision-headline-text .text-wrapper-2 {
+  color: #f78431;
+}
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 400px;
+  }
+}

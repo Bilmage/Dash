@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="features">
+    <div
+      *ngFor="let feature of featuresData; let i = index"
+      class="widget"
+      [style.backgroundColor]="feature.bgColor"
+    >
+      <div class="head">
+        <div class="pages">{{ feature.title }}</div>
+      </div>
+      <div class="text-wrapper">{{ feature.count }}</div>
+      <div class="footer">
+        <i [class]="feature.icon" style="color: #fff"></i>
+        <!-- Use CSS class for FontAwesome or Angular Icons -->
+      </div>
+    </div>
+  </div>
+</div>

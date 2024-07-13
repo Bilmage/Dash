@@ -1,0 +1,28 @@
+.back-to-top-button {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  opacity: 0.5;
+  background: #a95b1f;
+  border-radius: 4px;
+  transition: opacity 0.4s, color ease-in-out 0.2s, background ease-in-out 0.2s;
+}
+
+.back-to-top-button.visible {
+  display: flex;
+}
+
+.back-to-top-button.hidden {
+  display: none;
+}
+
+.back-to-top-button:hover {
+  opacity: 1;
+}

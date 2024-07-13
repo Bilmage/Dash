@@ -1,0 +1,8 @@
+/* banner.css */
+.about-banner {
+  background-image: url('../../assets//images/meetingafrican.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  padding-top: 50%;
+}

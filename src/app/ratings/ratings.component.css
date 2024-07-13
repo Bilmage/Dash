@@ -1,0 +1,246 @@
+.rate-message {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  justify-content: center;
+  padding: 50px 10px;
+  position: relative;
+  /* width: 1128px; */
+}
+
+.rate-message .rate-your-experience {
+  color: #ec6809;
+  font-family: 'Inter-ExtraBold', Helvetica;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 96px;
+  margin-top: -0.97px;
+  position: relative;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  /* width: fit-content; */
+}
+@media (max-width: 768px) {
+  .rate-message .rate-your-experience {
+    font-size: 20px;
+  }
+}
+
+.rate-message .are-you-satisfied {
+  color: #a95b1f;
+  font-family: 'Inter-SemiBold', Helvetica;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72px;
+  position: relative;
+  white-space: nowrap;
+  /* width: fit-content; */
+}
+@media (max-width: 768px) {
+  .rate-message .are-you-satisfied {
+    font-size: 18px;
+  }
+}
+
+.additionally-you-ll {
+  color: #5c6670;
+  flex: 1;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 25.9px;
+  margin-top: -0.7px;
+  position: relative;
+  margin-left: 10px;
+  letter-spacing: 0.05em;
+  white-space: normal;
+}
+.text-wrapper {
+  color: #5c6670;
+}
+span,
+strong {
+  color: #f78431;
+}
+
+/** textarea **/
+
+.star-icon {
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 768px) {
+  .star-icon {
+    font-size: 30px; /* Font size for small screens */
+  }
+}
+.star-icon.filled {
+  color: #f78431;
+}
+.star-icon:not(.filled) {
+  color: gray;
+}
+.form-control {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+@media screen and (max-width: 768px) {
+  .form-control {
+    width: 70%;
+  }
+}
+
+.avatarr img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.submit-button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f78431;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #d76a21;
+}
+
+span,
+strong {
+  color: #f78431;
+  font-family: 'Poppins', sans-serif;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+.search_bar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .search_bar {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    width: 80%;
+  }
+}
+.search_bar input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+@media (max-width: 768px) {
+  .search_bar input,
+  .search_bar select {
+    width: 100%; /* Change width to 100% for mobile screens */
+    font-size: 16px; /* Increase font size for better readability on mobile */
+  }
+}
+input {
+  width: 105px;
+}
+.search_bar input:focus {
+  border: 1px solid #a95b1f;
+}
+
+.search_bar select {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+  margin-left: 2rem;
+}
+
+.search_bar .filter {
+  width: 150px;
+}
+
+.tags_bar {
+  width: 55%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.tag {
+  background: #35393cff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+}
+span {
+  color: #f78431;
+}
+.tag i {
+  margin-right: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .tags_bar {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .tag {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+  margin-top: 1.3rem;
+  justify-content: space-between;
+}
+
+.row p {
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+
+.row p span {
+  color: #a95b1f;
+}
+.row a {
+  text-align: right;
+  align-items: center;
+}

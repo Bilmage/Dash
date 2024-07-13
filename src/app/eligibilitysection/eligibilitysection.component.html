@@ -1,0 +1,72 @@
+<div class="container">
+  <h1 class="eligibility-header">
+    <img src="../../assets/icons/🔒checked.svg" alt="img" />
+    <div class="headline">Check your Eligibility</div>
+  </h1>
+</div>
+
+<div class="container">
+  <form>
+    <fieldset>
+      <legend>Criteria:</legend>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option1']"
+          (change)="handleChange($event, 'option1')"
+        />
+        You have been in business for the past six months
+      </label>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option2']"
+          (change)="handleChange($event, 'option2')"
+        />
+        You have the required bonding and licenses in your jurisdictions
+      </label>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option3']"
+          (change)="handleChange($event, 'option3')"
+        />
+        You have no unresolved customer complaints
+      </label>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option4']"
+          (change)="handleChange($event, 'option4')"
+        />
+        You have no governmental ethics violations
+      </label>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option5']"
+          (change)="handleChange($event, 'option5')"
+        />
+        You fulfill contracts and promises made through business practices and
+        advertising
+      </label>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option6']"
+          (change)="handleChange($event, 'option6')"
+        />
+        You follow governmental and Bizresolves advertising laws and codes
+      </label>
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [checked]="checked['option7']"
+          (change)="handleChange($event, 'option7')"
+        />
+        Your website provides and follows a privacy policy and uses secure
+        financial transactions (if applicable)
+      </label>
+    </fieldset>
+  </form>
+</div>

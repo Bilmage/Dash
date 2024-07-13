@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build",
+    "startTime": "2023-11-13T09:04:35.048Z",
+    "endTime": "2023-11-13T09:05:27.286Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "biz-resolve-frontend:build:production",
+      "target": "build",
+      "projectName": "biz-resolve-frontend",
+      "hash": "7725069765401134733",
+      "startTime": "2023-11-13T09:04:35.059Z",
+      "endTime": "2023-11-13T09:05:27.284Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

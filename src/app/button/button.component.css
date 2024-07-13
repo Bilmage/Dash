@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* ButtonStyles.css */
+
+/* Small Button */
+.small-button {
+  align-items: center;
+  white-space: nowrap;
+  background-color: #f78431;
+  border-radius: 30px;
+  display: inline-flex;
+  gap: 5px;
+  height: 30px;
+  padding: 10px 10px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  margin: auto;
+  cursor: pointer;
+}
+
+.small-button:hover {
+  background-color: #e06025;
+}
+
+/* Medium Button (Using your original styles) */
+.CTA {
+  align-items: center;
+  white-space: nowrap;
+  background-color: #f78431;
+  border-radius: 54px;
+  display: inline-flex;
+  gap: 10px;
+  height: 37px;
+  width: auto;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 550;
+  padding: 16px 32px;
+  position: relative;
+  cursor: pointer;
+  margin: auto;
+}
+
+.CTA:hover {
+  background-color: #e06025;
+}
+
+/* Large Button */
+.large-button {
+  background: #f78431ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.large-button:hover {
+  background-color: #e06025;
+}
+
+.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  pointer-events: none; /* Prevent clicks when disabled */
+}

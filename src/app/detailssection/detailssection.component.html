@@ -1,0 +1,56 @@
+<div class="container">
+  <section class="main">
+    <div class="main-top">
+      <p class="welcome">
+        Hi John doe 👋 <br /><br />Welcome to your dashboard !
+      </p>
+    </div>
+    <div class="main-body">
+      <h1>All your Businesses</h1>
+      <div class="search_bar">
+        <input type="search" placeholder="Search for a Business, Charity..." />
+        <select name="" id="">
+          <option>Category</option>
+          <option>Charity</option>
+          <option>Internet provider</option>
+          <option>Branding</option>
+          <option>Web development</option>
+        </select>
+        <select class="filter">
+          <option>Registered</option>
+          <option>Accredited</option>
+          <option>Certified</option>
+        </select>
+      </div>
+      <div class="tags_bar">
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Charity</span>
+        </div>
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Banking</span>
+        </div>
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Internet</span>
+        </div>
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Photography</span>
+        </div>
+      </div>
+      <br /><br />
+      <app-features></app-features>
+      <div class="row">
+        <p>View a list of all your businesses</p>
+
+        <a><button>Export to CSV</button></a>
+      </div>
+
+      <div class="card">
+        <app-datatable></app-datatable>
+      </div>
+    </div>
+  </section>
+</div>

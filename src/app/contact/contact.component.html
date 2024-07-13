@@ -1,0 +1,80 @@
+<app-navigation></app-navigation>
+<app-contactsection></app-contactsection>
+<div class="container">
+  <form class="form" (submit)="handleFormSubmit($event)">
+    <h4>Get in touch</h4>
+    <p>
+      Do you wish to join us and become partners or maybe just asking a question
+      ? Please feel free to contact us. Biz-Resolve will use this information to
+      contact you via phone or email
+    </p>
+
+    <div class="text-input">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="email">Email address</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter email address"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="phone">Phone Number (optional)</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Enter phone number"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="county">Physical Address</label>
+      <select id="county" name="county" (change)="handleFormChange($event)">
+        <option value="">County</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Kisumu">Kisumu</option>
+        <option value="Mombasa">Mombasa</option>
+        <!-- Add more options here -->
+      </select>
+      &nbsp; &nbsp;
+      <select id="city" name="city" (change)="handleFormChange($event)">
+        <option value="">City</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Kisumu">Kisumu</option>
+        <option value="Mombasa">Mombasa</option>
+        <!-- Add more options here -->
+      </select>
+    </div>
+    <hr />
+
+    <div class="description-input">
+      <label for="description" class="text-input">Get in touch</label>
+      <textarea
+        id="description"
+        placeholder="Tell us what is on your mind"
+        name="description"
+        rows="3"
+        (change)="handleFormChange($event)"
+      ></textarea>
+    </div>
+    <hr />
+
+    <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+  </form>
+</div>
+<app-footer></app-footer>

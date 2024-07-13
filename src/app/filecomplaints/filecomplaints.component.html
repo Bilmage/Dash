@@ -1,0 +1,121 @@
+<app-navigation></app-navigation> <br /><br />
+<app-header [mainText]="'File a'" [secondaryText]="'complaint'"></app-header>
+
+<div class="container">
+  <div class="business-text">
+    <div class="p-wrapper">
+      <h1 class="headline">What Type Of Business Are You Reporting?</h1>
+    </div>
+    <div class="p-wrapper">
+      <p class="paragraph">
+        Biz-Resolve welcomes the opportunity to assist you with your marketplace
+        challenge. Whether you need to file a complaint, post a review, tell us
+        about a misleading advertisement, or report a scam, you're in the right
+        place. There are some disputes Bizresolve cannot help with, You can view
+        those
+        <a href="#"
+          ><strong><span>here</span></strong></a
+        >
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <form class="form" (ngSubmit)="handleFormSubmit($event)">
+    <h4>File a complaint with Biz-Resolve today</h4>
+    <p>
+      Biz-Resolve will use this information to contact you via phone or email to
+      learn more about your business.
+    </p>
+    <br />
+    <hr />
+    <div class="text-input">
+      <label for="businessName">Business Full name</label>
+      <input
+        type="text"
+        id="businessName"
+        name="businessName"
+        placeholder="Enter business full name"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="businessEmail">Business Email address</label>
+      <input
+        type="email"
+        id="businessEmail"
+        name="businessEmail"
+        placeholder="Enter business email address"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="businessPhysicalAddress">Business Physical Address</label>
+      <input
+        type="text"
+        id="businessPhysicalAddress"
+        name="businessPhysicalAddress"
+        placeholder="Enter business physical address"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="businessPhone">Business Phone Number (optional)</label>
+      <input
+        type="tel"
+        id="businessPhone"
+        name="businessPhone"
+        placeholder="Enter business phone number"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="county">County the business is situated</label>
+      <select id="county" name="county">
+        <option value="">County</option>
+        <option value="1">Nairobi</option>
+        <option value="2">Kisumu</option>
+        <option value="3">Mombasa</option>
+        <option value="4">Nakuru</option>
+        <option value="5">Naivasha</option>
+        <option value="6">Kisii</option>
+      </select>
+    </div>
+    <hr />
+    <div class="description-input">
+      <label for="complaintDescription">Describe your complaint</label>
+      <textarea
+        id="complaintDescription"
+        name="complaintDescription"
+        rows="3"
+      ></textarea>
+    </div>
+    <hr />
+    <div class="file-input">
+      <label for="fileInput">
+        <h5>
+          <i class="fa fa-upload" aria-hidden="true"></i>&nbsp; &nbsp; Click to
+          upload
+        </h5>
+      </label>
+      <input
+        accept=".pdf, .doc, .docx"
+        id="fileInput"
+        type="file"
+        (change)="handleFileUpload($event)"
+      />
+      &nbsp; &nbsp; &nbsp; &nbsp;
+      <p>
+        Upload the required documents or any other relevant file (Required) Max
+        file size 50 MB
+      </p>
+    </div>
+    <hr />
+    <button type="submit" class="button">
+      Submit <i class="fas fa-paper-plane"></i>
+    </button>
+  </form>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,64 @@
+<!-- biz-footer.component.html -->
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h1>Subscribe to our newsletter!</h1>
+        <form class="newsletter-form" (ngSubmit)="handleSubmit()">
+          <input
+            type="email"
+            placeholder="Enter E-mail"
+            (change)="handleEmailChange($event)"
+          />
+          <button type="submit">
+            Subscribe <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h6>For Consumers</h6>
+        <ul class="footer-links">
+          <li>
+            <a href="/dashboard"
+              >Search for a Biz-Resolve Accredited business</a
+            >
+          </li>
+          <li>
+            <a href="/ratings">Leave a Review</a>
+          </li>
+          <li>
+            <a href="/logcomplaint">File a complaint</a>
+          </li>
+          <li>
+            <a href="/about">Frequently asked questions (FAQS)</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h6>For Businesses</h6>
+        <ul class="footer-links">
+          <li>
+            <a href="/checkeligibility">Get Accredited</a>
+          </li>
+          <li>
+            <a href="/businessaccreditation"
+              >Apply for Biz-Resolve Accreditation</a
+            >
+          </li>
+          <li>
+            <a href="/contact">Become a partner</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div>
+        <p class="copyright-text">© 2023 Biz-Resolve. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,99 @@
+/**MissionHeadline**/
+.mission-headline {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 14.1px;
+  height: 191px;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  /* width: 360px; */
+}
+
+.mission-headline .headline {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 7.05px;
+  padding: 7.05px;
+  position: relative;
+}
+
+.mission-headline .our-mission {
+  color: transparent;
+  flex: 1;
+  font-family: 'Poppins-Bold', Helvetica;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 49.3px;
+  margin-top: -0.7px;
+  position: relative;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .mission-headline .our-mission {
+    font-size: 1.25rem;
+  }
+}
+.mission-headline .text-wrapper {
+  color: #a95b1f;
+}
+
+.mission-headline .span {
+  color: #000000;
+}
+
+.mission-headline .text-wrapper-2 {
+  color: #f78431;
+}
+/**MissionText**/
+.mission-text {
+  align-items: center;
+  display: flex;
+  gap: 8.13px;
+  text-align: left;
+  height: 265px;
+  justify-content: flex-end;
+  padding: 8.13px;
+  position: relative;
+  /* width: 500px; */
+  height: auto;
+}
+
+.mission-text .at-bizresolve-our {
+  color: #5c6670;
+  flex: 1;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 25.9px;
+  margin-top: -0.7px;
+  position: relative;
+  margin-left: 10px;
+  letter-spacing: 0.05em;
+}
+@media (max-width: 768px) {
+  .mission-text .at-bizresolve-our {
+    font-size: 14px;
+  }
+}
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 400px;
+  }
+}

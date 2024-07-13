@@ -1,0 +1,24 @@
+<app-header [mainText]="'Our Core'" [secondaryText]="'Values'"></app-header>
+<br /><br />
+<div
+  class="container services"
+  [ngClass]="className"
+  style="align-items: center"
+>
+  <div class="row">
+    <div
+      *ngFor="let service of servicesData; let index = index"
+      class="col-lg-4 col-md-6"
+    >
+      <div class="div">
+        <img
+          class="shield-check"
+          [alt]="service.alt"
+          src="../../assets/images/ShieldCheck.svg"
+        />
+        <div class="text-wrapper">{{ service.title }}</div>
+        <p class="p">{{ service.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

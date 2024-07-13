@@ -1,0 +1,87 @@
+<div class="container">
+  <section class="main">
+    <div class="main-top">
+      <p class="welcome">
+        Hi John doe 👋 <br /><br />Welcome to your dashboard !
+      </p>
+    </div>
+    <div class="main-body">
+      <h1>Registered Businesses</h1>
+      <div class="search_bar">
+        <input type="search" placeholder="Search for a Business, charity..." />
+        <select name="">
+          <option>Category</option>
+          <option>Charity</option>
+          <option>Internet provider</option>
+          <option>Branding</option>
+          <option>Web development</option>
+        </select>
+        <select class="filter">
+          <option>Registered</option>
+          <option>Accredited</option>
+          <option>Certified</option>
+        </select>
+      </div>
+      <div class="tags_bar">
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Charity</span>
+        </div>
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Banking</span>
+        </div>
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Internet</span>
+        </div>
+        <div class="tag">
+          <i class="fas fa-times"></i>
+          <span>Photography</span>
+        </div>
+      </div>
+      <br /><br />
+      <app-features></app-features>
+      <div class="row">
+        <p>
+          There are more than <span>20</span> Certified business, swipe to see
+          more
+        </p>
+        <!-- <a href="#">See all</a> -->
+      </div>
+      <app-businesscard></app-businesscard>
+      <div class="row">
+        <p>You have more than <span>40</span> Registered business</p>
+        <a href="#">See all</a>
+      </div>
+      <div>
+        <!-- Loop through businessData and generate business cards -->
+        <div class="business_card" *ngFor="let business of businessData">
+          <div class="business_details">
+            <div class="img">
+              <img [src]="business.logoSrc" alt="Logo" />
+            </div>
+            <div class="text">
+              <h2>{{ business.businessName }}</h2>
+              <span>{{ business.businessCategory }}</span>
+            </div>
+          </div>
+          <div class="status">
+            <h4>{{ business.status }}</h4>
+            <span>{{ business.postedAgo }}</span>
+          </div>
+          <div>
+            <a routerLink="/profile">
+              <!-- Specify the URL for the Eye icon -->
+              <img
+                class="description"
+                alt="Description"
+                src="../../assets/icons/Redeye.svg"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,14 @@
+<button
+  class="CTA"
+  [class.small-button]="size === 'small'"
+  [class.medium-button]="size === 'medium'"
+  [class.large-button]="size === 'large'"
+  [class.disabled]="disabled"
+  (click)="handleClick()"
+  [disabled]="disabled"
+>
+  <ng-container *ngIf="icon">
+    <i class="button-icon" [ngClass]="['fas', icon]"></i>
+  </ng-container>
+  {{ text }}
+</button>

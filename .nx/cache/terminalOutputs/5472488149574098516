@@ -1,0 +1,109 @@
+
+Linting "biz-resolve-frontend"...
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/actions/surveys.actions.ts[24m[0m
+[0m  [2m7:29[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/app.routes.ts[24m[0m
+[0m  [2m3:10[22m  [33mwarning[39m  'Routes' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/businesssection/businesssection.component.ts[24m[0m
+[0m  [2m9:24[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/business.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/business.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/ratings.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/ratings.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/reports.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/reports.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/reviews.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/reviews.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/signin.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/signin.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/signup.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/signup.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/user.effects.spec.ts[24m[0m
+[0m  [2m8:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/effects/user.effects.ts[24m[0m
+[0m  [2m2:19[22m  [33mwarning[39m  'createEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/filecomplaints/filecomplaints.component.ts[24m[0m
+[0m  [2m31:27[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m38:27[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/individualsection/individualsection.component.ts[24m[0m
+[0m  [2m9:24[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/business.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/business.reducer.ts[24m[0m
+[0m   [2m8:15[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m9:20[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m11:10[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/ratings.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/reports.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/reports.reducer.ts[24m[0m
+[0m  [2m10:10[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/reviews.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/reviews.reducer.ts[24m[0m
+[0m   [2m8:12[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m9:18[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m11:10[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/signin.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/signin.reducer.ts[24m[0m
+[0m   [2m9:9[22m   [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m11:10[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/signup.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/signup.reducer.ts[24m[0m
+[0m   [2m8:9[22m   [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m9:13[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m11:10[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/user.reducer.spec.ts[24m[0m
+[0m  [2m6:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/src/app/reducers/user.reducer.ts[24m[0m
+[0m  [2m16:10[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[33m[1m✖ 40 problems (0 errors, 40 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[0m

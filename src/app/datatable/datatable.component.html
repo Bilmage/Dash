@@ -1,0 +1,84 @@
+<mat-table [dataSource]="dataSource">
+  <!-- Existing columns -->
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef>Name</mat-header-cell>
+    <mat-cell *matCellDef="let element">{{ element.col1 }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="type">
+    <mat-header-cell *matHeaderCellDef>Type</mat-header-cell>
+    <mat-cell *matCellDef="let element">{{ element.col2 }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="phoneNumber">
+    <mat-header-cell *matHeaderCellDef>Phone Number</mat-header-cell>
+    <mat-cell *matCellDef="let element">{{ element.phoneNumber }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="email">
+    <mat-header-cell *matHeaderCellDef>Email</mat-header-cell>
+    <mat-cell *matCellDef="let element">{{ element.email }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="description">
+    <mat-header-cell *matHeaderCellDef>Description</mat-header-cell>
+    <mat-cell *matCellDef="let element">{{ element.description }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="registeredAt">
+    <mat-header-cell *matHeaderCellDef>Registered At</mat-header-cell>
+    <mat-cell *matCellDef="let element">{{ element.registeredAt }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="accredited">
+    <mat-header-cell *matHeaderCellDef> Accredited </mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <a [routerLink]="'/checkeligibility'">
+        <i
+          class="fa"
+          [ngClass]="{
+            'fa-check': element.accredited,
+            'fa-times': !element.accredited
+          }"
+          >{{ element.accredited }}</i
+        >
+      </a>
+    </mat-cell>
+  </ng-container>
+
+  <!-- Header row -->
+  <mat-header-row
+    *matHeaderRowDef="[
+      'name',
+      'type',
+      'phoneNumber',
+      'email',
+      'description',
+      'registeredAt',
+      'accredited'
+    ]"
+  ></mat-header-row>
+
+  <!-- Row definitions -->
+  <mat-row
+    *matRowDef="
+      let row;
+      columns: [
+        'name',
+        'type',
+        'phoneNumber',
+        'email',
+        'description',
+        'registeredAt',
+        'accredited'
+      ]
+    "
+  ></mat-row>
+</mat-table>
+
+<mat-paginator
+  [pageSizeOptions]="[5, 10, 20]"
+  showFirstLastButtons
+  aria-label="Select page of periodic elements"
+>
+</mat-paginator>

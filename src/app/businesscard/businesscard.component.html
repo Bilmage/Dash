@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="business-list-container">
+    <div class="business-card" *ngFor="let business of businessData">
+      <div class="liked">
+        <div class="user-liked">
+          <div class="ratings">
+            <ng-container *ngFor="let _ of [].constructor(business.rating)">
+              <i class="fas fa-star star-icon" style="color: #f78431"></i>
+            </ng-container>
+
+            <div class="text-wrapper">{{ business.rating }} of 5</div>
+          </div>
+        </div>
+      </div>
+      <div class="body">
+        <img class="image" [src]="business.imageSrc" alt="Img" />
+        <div class="frame">
+          <div class="div">
+            <div class="text-wrapper-2">{{ business.name }}</div>
+            <div class="text-wrapper-3">{{ business.type }}</div>
+            <div *ngIf="business.isNew" class="new">
+              <img class="heart" alt="Heart" [src]="heartIcon" />
+              <div class="text-wrapper-4">New</div>
+            </div>
+          </div>
+          <div class="description">
+            <p class="p">{{ business.description }}</p>
+          </div>
+          <div class="div">
+            <div class="text-wrapper-5">{{ business.location }}</div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="business.isCertified" class="certified">
+        <div class="certified-logo">
+          <img class="element" alt="Element" [src]="certifiedIcon" />
+          <div class="text-wrapper-6">Certified</div>
+        </div>
+      </div>
+      <div class="call-to-action">
+        <a href="/ratings">
+          <app-button
+            text="Leave a review"
+            [icon]="'fa-star'"
+            size="small"
+          ></app-button>
+        </a>
+        <a href="/businessprofile">
+          <app-button
+            text="View profile"
+            [icon]="'fa-eye'"
+            size="small"
+            [disabled]="true"
+          ></app-button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

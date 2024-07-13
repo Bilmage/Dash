@@ -1,0 +1,102 @@
+/* Sidebar.css */
+
+.sidebar-mobile {
+  height: 100%;
+  width: 250px;
+  top: 0;
+  right: -250px;
+  background: #f4f1f1f9;
+  padding-top: 20px;
+  color: white;
+  transition: right 0.3s ease-in-out;
+  position: fixed;
+  z-index: 1000;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  padding-top: 40px;
+}
+a {
+  text-decoration: none;
+}
+.fa-times {
+  color: #a95b1f !important ;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.sidebar-mobile.open {
+  right: 0;
+}
+
+.toggle-sidebar-btn {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  transform: translateX(30px);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 769px) {
+  .toggle-sidebar-btn,
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px; /* Adjust as needed */
+    cursor: pointer;
+  }
+
+  .close-btn {
+    font-size: 30px; /* Adjust to make it smaller */
+  }
+
+  .sidebar-mobile {
+    display: none;
+  }
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+/* Sidebar.css */
+
+.navigational-items {
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.navigational-items div {
+  margin-bottom: 10px; /* Adjust the bottom margin between items as needed */
+}
+
+/* Style for the links within additional items */
+.navigational-items a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Set the text color for links */
+  display: block; /* Make links block elements to take full width */
+}
+
+.nav-item a {
+  color: #35393cff; /* Set the text color for navigation items */
+}
+
+.nav-item a :hover {
+  color: #f78431ff;
+}

@@ -1,0 +1,7 @@
+.header-banner {
+  background-image: url('../../assets/images/HeaderBanner.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 414px;
+  width: 100%;
+}

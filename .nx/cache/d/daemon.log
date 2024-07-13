@@ -1,0 +1,2122 @@
+[NX Daemon Server] - 2023-11-13T08:43:07.377Z - Started listening on: /tmp/b7076017b1183038b298/d.sock
+[NX Daemon Server] - 2023-11-13T08:43:07.381Z - [WATCHER]: Subscribed to changes within: /home/nelson/Documents/Bizresolve_New/biz-resolve-frontend (native)
+[NX Daemon Server] - 2023-11-13T08:43:07.384Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T08:43:07.386Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T08:43:07.391Z - [REQUEST]: Client Request for Project Graph Received
+
+ >  NX   Failed to parse npm lockfile
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   
+Original error: Unexpected end of JSON input
+
+
+   SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parsePackageLockFile (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:20:26)
+    at getNpmLockfileNodes (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:26:18)
+    at getLockFileNodes (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/lock-file/lock-file.js:39:57)
+    at exports.createNodes (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/index.js:42:64)
+    at buildProjectsConfigurationsFromProjectPathsAndPlugins (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:68:88)
+    at createProjectConfigurations (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:131:129)
+    at WorkspaceContext.<anonymous> (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:82:39)
+    at getProjectConfigurationsFromContext (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/utils/workspace-context.js:26:29)
+    at _retrieveProjectConfigurations (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:81:72)
+
+[NX Daemon Server] - 2023-11-13T08:43:07.527Z - Error detected when recomputing project file map: Unexpected end of JSON input
+[NX Daemon Server] - 2023-11-13T08:43:07.527Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parsePackageLockFile (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:20:26)
+    at getNpmLockfileNodes (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:26:18)
+    at getLockFileNodes (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/lock-file/lock-file.js:39:57)
+    at exports.createNodes (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/plugins/js/index.js:42:64)
+    at buildProjectsConfigurationsFromProjectPathsAndPlugins (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:68:88)
+    at createProjectConfigurations (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:131:129)
+    at WorkspaceContext.<anonymous> (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:82:39)
+    at getProjectConfigurationsFromContext (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/utils/workspace-context.js:26:29)
+    at _retrieveProjectConfigurations (/home/nelson/Documents/Bizresolve_New/biz-resolve-frontend/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:81:72)
+[NX Daemon Server] - 2023-11-13T08:43:07.531Z - Done responding to the client null
+[NX Daemon Server] - 2023-11-13T09:03:36.604Z - Started listening on: /tmp/b7076017b1183038b298/d.sock
+[NX Daemon Server] - 2023-11-13T09:03:36.608Z - [WATCHER]: Subscribed to changes within: /home/nelson/Documents/Bizresolve_New/biz-resolve-frontend (native)
+[NX Daemon Server] - 2023-11-13T09:03:36.610Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T09:03:36.612Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:03:36.618Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-13T09:03:36.810Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-13T09:03:36.810Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-13T09:03:36.810Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-13T09:03:37.498Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-13T09:03:37.502Z - Time taken for 'total for creating and serializing project graph' 880.4847710002214ms
+[NX Daemon Server] - 2023-11-13T09:03:37.502Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T09:03:37.504Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-13T09:03:37.504Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 881. Response time: 6.
+[NX Daemon Server] - 2023-11-13T09:03:37.743Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:03:37.743Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:03:37.744Z - Handled HASH_TASKS. Handling time: 136. Response time: 1.
+[NX Daemon Server] - 2023-11-13T09:03:38.287Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:03:38.290Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-13T09:03:38.291Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:03:38.294Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-13T09:03:38.294Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-13T09:03:38.295Z - Time taken for 'total for creating and serializing project graph' 0.48477499978616834ms
+[NX Daemon Server] - 2023-11-13T09:03:38.297Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-13T09:03:38.297Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-11-13T09:03:38.595Z - [WATCHER]: Processing file changes in outputs
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+[NX Daemon Server] - 2023-11-13T09:03:38.672Z - [WATCHER]: Processing file changes in outputs
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+[NX Daemon Server] - 2023-11-13T09:03:38.746Z - [WATCHER]: Processing file changes in outputs
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+
+> NX runtime error [3merr[0m[2m=[0mcannot send event from fs watcher: sending into a full channel
+
+[NX Daemon Server] - 2023-11-13T09:03:38.800Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.006Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.080Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.156Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.228Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.279Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.335Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.406Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.469Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.592Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.698Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.833Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:48.947Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.014Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.330Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.555Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.613Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:49.677Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:50.079Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:50.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:50.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:50.248Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:52.709Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:52.769Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:52.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:52.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:53.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:53.073Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:53.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:53.801Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.103Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.275Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.355Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.572Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.630Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.744Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.797Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:54.883Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:55.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:55.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:55.177Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:55.242Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:55.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:55.378Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.059Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.291Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.406Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.640Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:56.794Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:57.442Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:59.179Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:59.236Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:59.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:59.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:59.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:03:59.811Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:00.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:00.112Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:00.251Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:00.420Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:00.523Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:00.897Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:01.432Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:01.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:01.851Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:01.909Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:01.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:02.162Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:02.442Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:02.701Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:02.764Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:03.323Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:03.696Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:03.745Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:04.212Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:04.291Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:04.427Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:04.577Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:04.641Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:04.706Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.074Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.537Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.649Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.701Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.811Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.921Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:05.976Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.029Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.080Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.194Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.253Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.304Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.436Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.617Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:06.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.040Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.094Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.260Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.369Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.424Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.589Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.668Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.723Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.778Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.838Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:07.951Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:08.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:08.101Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:08.198Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:15.684Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:15.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:15.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:15.920Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:18.233Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-11-13T09:04:18.234Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:04:18.235Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-11-13T09:04:18.237Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-13T09:04:18.238Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-13T09:04:18.239Z - Time taken for 'total for creating and serializing project graph' 0.5285349995829165ms
+[NX Daemon Server] - 2023-11-13T09:04:18.240Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-13T09:04:18.240Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2023-11-13T09:04:18.389Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:04:18.389Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:04:18.390Z - Handled HASH_TASKS. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-11-13T09:04:18.425Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:04:18.426Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:04:18.426Z - Handled HASH_TASKS. Handling time: 18. Response time: 1.
+[NX Daemon Server] - 2023-11-13T09:04:23.313Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-11-13T09:04:23.313Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-11-13T09:04:23.313Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-11-13T09:04:23.604Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2023-11-13T09:04:23.608Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2023-11-13T09:04:23.608Z - Handled PROCESS_IN_BACKGROUND. Handling time: 254. Response time: 4.
+[NX Daemon Server] - 2023-11-13T09:04:23.609Z - Uploading file artifacts
+[NX Daemon Server] - 2023-11-13T09:04:23.609Z - Done uploading file artifacts
+[NX Daemon Server] - 2023-11-13T09:04:23.609Z - Sending EndRun request
+[NX Daemon Server] - 2023-11-13T09:04:23.661Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:04:23.934Z - Done sending EndRun request
+[NX Daemon Server] - 2023-11-13T09:04:34.859Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-11-13T09:04:34.862Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:04:34.864Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-11-13T09:04:34.868Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-13T09:04:34.868Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-13T09:04:34.869Z - Time taken for 'total for creating and serializing project graph' 0.39530499977990985ms
+[NX Daemon Server] - 2023-11-13T09:04:34.872Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-13T09:04:34.873Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 5.
+[NX Daemon Server] - 2023-11-13T09:04:35.040Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:04:35.041Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-11-13T09:04:35.041Z - Handled HASH_TASKS. Handling time: 63. Response time: 1.
+[NX Daemon Server] - 2023-11-13T09:04:35.587Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2023-11-13T09:04:35.590Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-11-13T09:04:35.591Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2023-11-13T09:04:35.594Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-13T09:04:35.594Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-13T09:04:35.595Z - Time taken for 'total for creating and serializing project graph' 0.32204499980434775ms
+[NX Daemon Server] - 2023-11-13T09:04:35.597Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-13T09:04:35.597Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-11-13T09:04:37.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:43.687Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:43.758Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:43.810Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:43.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:43.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.066Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.189Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.256Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.321Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.382Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.503Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.564Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.624Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.760Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:44.970Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.154Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.211Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.277Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.687Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.745Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:45.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:46.030Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:46.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:46.154Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.072Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.167Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.590Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:49.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.305Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.751Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.810Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.890Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:50.944Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:51.002Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:51.064Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:51.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:52.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:52.214Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:53.872Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:54.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:54.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:54.726Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.481Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.546Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.665Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:55.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.399Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.518Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.577Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.691Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.885Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:56.938Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:57.002Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:57.358Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:57.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:57.923Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:57.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:58.065Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:58.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:58.582Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:59.093Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:59.254Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:59.463Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:59.754Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:59.837Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:04:59.981Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:00.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:00.095Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:00.204Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:00.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:00.615Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.091Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.204Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.377Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.431Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.486Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.560Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.619Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.675Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.782Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.837Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:01.896Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.074Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.135Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.449Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.557Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.661Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.714Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.766Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.887Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.944Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:02.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.053Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.368Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.508Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.559Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.610Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:03.742Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:22.698Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:25.233Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:25.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:25.360Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:25.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:25.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:25.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:27.175Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-13T09:05:27.277Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-11-13T09:05:27.283Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-11-13T09:05:27.283Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-11-13T09:05:27.283Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-11-13T09:05:27.318Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2023-11-13T09:05:27.319Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2023-11-13T09:05:27.319Z - Handled PROCESS_IN_BACKGROUND. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2023-11-13T09:05:27.319Z - Uploading file artifacts
+[NX Daemon Server] - 2023-11-13T09:05:27.319Z - Done uploading file artifacts
+[NX Daemon Server] - 2023-11-13T09:05:27.319Z - Sending EndRun request
+[NX Daemon Server] - 2023-11-13T09:05:27.331Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-13T09:05:27.717Z - Done sending EndRun request

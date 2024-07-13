@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="file-complaint">
+    <div class="div">
+      <div class="sub-headline">File a complaint</div>
+      <div class="div-2">
+        <p class="paragraph">
+          Biz-Resolve welcomes the opportunity to assist you with your
+          marketplace challenge. Whether you need to file a complaint, post a
+          review, tell us about a misleading advertisement, or report a scam,
+          you're in the right place. There are some disputes Biz-Resolve cannot
+          help with, You can view those
+          <a href="#" class="link"><strong>here</strong></a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="radio-group">
+        <label class="radio-label">
+          <input
+            type="radio"
+            class="radio-input"
+            [value]="'option1'"
+            [checked]="value === 'option1'"
+            (change)="handleChange($event)"
+          />
+          I'd like to file a complaint against a business, and have Biz-Resolve
+          help me get a resolution to my problem.
+        </label>
+        <label class="radio-label">
+          <input
+            type="radio"
+            class="radio-input"
+            [value]="'option2'"
+            [checked]="value === 'option2'"
+            (change)="handleChange($event)"
+          />
+          I'd like to share an experience about a business.
+        </label>
+        <label class="radio-label">
+          <input
+            type="radio"
+            class="radio-input"
+            [value]="'option3'"
+            [checked]="value === 'option3'"
+            (change)="handleChange($event)"
+          />
+          I'd like to warn others about a business or offer that sounds like a
+          fraud.
+        </label>
+        <!-- <label class="radio-label">
+          <input
+            type="radio"
+            class="radio-input"
+            [value]="'option4'"
+            [checked]="value === 'option4'"
+            (change)="handleChange($event)"
+          />
+          I'd like to file a complaint about a warranty dispute for a vehicle.
+        </label> -->
+      </div>
+    </div>
+  </div>
+</div>

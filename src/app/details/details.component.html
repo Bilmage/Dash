@@ -1,0 +1,92 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+/>
+
+<div
+  [ngClass]="{ 'overlay active': sidebarOpen }"
+  (click)="closeSidebar()"
+></div>
+
+<div class="nav_bar">
+  <div [ngClass]="{ 'menu-bars close': sidebarOpen }" (click)="toggleSidebar()">
+    <i *ngIf="!sidebarOpen" class="fa fa-bars"></i>
+    <!-- <i *ngIf="sidebarOpen" class="fa fa-times"></i> -->
+  </div>
+  <div class="nav_right">
+    <div href="#" class="notification">
+      <i class="fas fa-bell"></i>
+    </div>
+    <div href="#" class="avatar">
+      <img [src]="profile" alt="Avatar" />
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+  <nav [ngClass]="['nav-menu', sidebarOpen ? 'active' : '']">
+    <div class="navbar">
+      <ul class="nav-menu-items">
+        <div class="logo">
+          <a [routerLink]="['/']">
+            <img [src]="logo" alt="Logo" />
+          </a>
+          <li>
+            <button class="close-button" (click)="closeSidebar()">
+              <i class="fa fa-times"></i>
+            </button>
+          </li>
+        </div>
+        <li>
+          <i class="fas fa-user"></i>
+          <a [routerLink]="['/dashboard']">
+            <span class="nav-item">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-info-circle"></i>
+          <a [routerLink]="['/details']">
+            <span class="nav-item">Details</span>
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-chart-bar"></i>
+          <a [routerLink]="['/analytics']">
+            <span class="nav-item">Analytics</span>
+          </a>
+        </li>
+        <li>
+          <i class="fab fa-dochub"></i>
+          <a [routerLink]="['#']">
+            <span class="nav-item">Reports</span>
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-cog"></i>
+          <a [routerLink]="['#']">
+            <span class="nav-item">Settings</span>
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-question-circle"></i>
+          <a [routerLink]="['#']">
+            <span class="nav-item">Help</span>
+          </a>
+        </li>
+        <!-- <li>
+            <i class="fa fa-sign-in" aria-hidden="true"></i>
+
+            <a href="#">
+              <span class="nav-item">Logout</span>
+            </a>
+          </li> -->
+      </ul>
+    </div>
+  </nav>
+  <main [ngClass]="{ 'main active': sidebarOpen }">
+    <!-- Add the content of your Dashboard here -->
+    <br /><br />
+    <app-detailssection></app-detailssection>
+    <app-footer></app-footer>
+  </main>
+</div>

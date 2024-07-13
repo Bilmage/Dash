@@ -1,0 +1,152 @@
+<div class="container">
+  <div class="flex-container">
+    <div class="form-wrapper">
+      <h1>Sign up</h1>
+      <form>
+        <div class="form-item">
+          <label for="role" class="fw-bold" style="color: #5c6670">
+            Choose an option you want to sign up with.
+          </label>
+          <select
+            (change)="handleInputChange($event)"
+            id="role"
+            name="role"
+            required
+          >
+            <option value="Individual User">Individual User</option>
+            <option value="Business Owner">Business Owner</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="firstName">First Name</label>
+          <input
+            (change)="handleInputChange($event)"
+            id="firstName"
+            type="text"
+            name="firstName"
+            required
+            placeholder="First Name"
+          />
+        </div>
+
+        <div class="form-item">
+          <label for="lastName">Last Name</label>
+          <input
+            (change)="handleInputChange($event)"
+            id="lastName"
+            type="text"
+            name="lastName"
+            required
+            placeholder="Last Name"
+          />
+        </div>
+
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input
+            (change)="handleInputChange($event)"
+            id="email"
+            type="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+        </div>
+
+        <div class="form-item">
+          <label for="password"></label>
+          <input
+            (input)="handleInputChange($event)"
+            #passwordInput
+            name="password"
+            [type]="hidePassword1 ? 'password' : 'text'"
+            required
+            placeholder="Password"
+          />
+          <span class="field-icon toggle-password" (click)="togglePasswordVisibility1()">
+            <span class="material-icons">{{ hidePassword1 ? 'visibility_off' : 'visibility' }}</span>
+          </span>
+        </div>
+
+        <div class="form-item">
+          <label for="password"></label>
+          <input
+            (input)="handleInputChange($event)"
+            #passwordInput
+            name="password"
+            [type]="hidePassword2 ? 'password' : 'text'"
+            required
+            placeholder="Confirm password"
+          />
+          <span class="field-icon toggle-password" (click)="togglePasswordVisibility2()">
+            <span class="material-icons">{{ hidePassword2 ? 'visibility_off' : 'visibility' }}</span>
+          </span>
+        </div>
+
+        <div class="form-item">
+          <label
+            style="
+              color: #5c6670;
+              text-align: center;
+              font-size: 12px;
+              vertical-align: middle;
+            "
+          >
+            <input
+              type="checkbox"
+              name="flexCheck"
+              id="flexCheckDefault"
+              [checked]="isChecked"
+              (change)="handleCheckboxChange()"
+              style="transform: scale(0.3)"
+            />
+            I accept the
+            <a
+              [routerLink]="['/']"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: underline; color: #5c6670"
+            >
+              Terms and Conditions
+            </a>
+            of Biz-Resolve.
+          </label>
+        </div>
+
+        <div class="button-panel">
+          <button (click)="handleSubmit()" class="button" title="Sign up">
+            Sign up <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </form>
+      <div class="form-footer">
+        <hr class="mx-n3" />
+        <p style="color: #5c6670">
+          Already have an account?
+          <a
+            [routerLink]="['/signin']"
+            style="text-decoration: underline; color: rgb(236, 104, 9)"
+            >Sign in</a
+          >
+        </p>
+        <p><a [routerLink]="['/']">Back to home</a></p>
+        <div class="line"></div>
+        <div class="google-btn">
+          <div class="google-icon-wrapper">
+            <img
+              class="google-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+            />
+          </div>
+          <p class="btn-text"><b>Sign up with Google</b></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side with Sign up image -->
+    <div class="animation-container">
+      <img class="image" [src]="Signupimage" />
+    </div>
+  </div>
+</div>

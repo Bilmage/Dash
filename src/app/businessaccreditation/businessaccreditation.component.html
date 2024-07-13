@@ -1,0 +1,171 @@
+<app-navigation></app-navigation> <br /><br />
+<div class="container">
+  <form class="form" (submit)="handleFormSubmit($event)">
+    <h4>Get accredited with Biz-resolve today</h4>
+    <p>
+      Biz-Resolve will use this information to contact you via phone or email to
+      learn more about your business
+    </p>
+    <div class="avatar">
+      <h5>Click to Upload Your Business logo</h5>
+      <label for="logoInput">
+        <div class="avatarr">
+          <img [src]="safaricom" alt="Profile" />
+        </div>
+      </label>
+      <input
+        accept=".png, .jpg, .jpeg"
+        id="logoInput"
+        type="file"
+        class="logo-upload"
+        (click)="handleFileUpload($event)"
+      />
+    </div>
+    <br />
+    <hr />
+    <div class="text-input">
+      <label for="businessName">Business Full name</label>
+      <input
+        type="text"
+        id="businessName"
+        name="businessName"
+        placeholder="Enter business full name"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="businessEmail">Business Email address</label>
+      <input
+        type="email"
+        id="businessEmail"
+        name="businessEmail"
+        placeholder="Enter business email address"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="businessPhone">Business Phone Number</label>
+      <input
+        type="tel"
+        id="businessPhone"
+        name="businessPhone"
+        placeholder="Enter business phone number"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="text-input">
+      <label for="businessCategory">Business Category</label>
+      <select
+        id="businessCategory"
+        name="businessCategory"
+        (change)="handleFormChange($event)"
+      >
+        <option value="none">None</option>
+        <option value="internet">Internet</option>
+        <option value="finance">Finance</option>
+        <option value="webDeveloper">Web Developer</option>
+        <option value="">Web developer</option>
+      </select>
+    </div>
+    <hr />
+    <div class="description-input">
+      <label for="businessDescription" class="text-input"
+        >Business Description</label
+      >
+      <textarea
+        id="businessDescription"
+        name="businessDescription"
+        type="description"
+        rows="3"
+        (change)="handleFormChange($event)"
+      ></textarea>
+    </div>
+    <hr />
+    <div class="file-input">
+      <label for="fileInput">
+        <h5>
+          <i class="fa fa-upload" aria-hidden="true"></i>&nbsp; &nbsp; Click to
+          upload
+        </h5>
+      </label>
+      <input
+        accept=".pdf, .doc, .docx"
+        id="fileInput"
+        type="file"
+        (change)="handleFileUpload($event)"
+      />
+      &nbsp; &nbsp; &nbsp; &nbsp;
+      <p>Upload your business plan (Required) Max file size 50 MB</p>
+    </div>
+    <hr />
+    <div class="file-input">
+      <label for="fileInput">
+        <h5>
+          <i class="fa fa-upload" aria-hidden="true"></i>&nbsp; &nbsp; Click to
+          upload
+        </h5>
+      </label>
+      <input
+        accept=".pdf, .doc, .docx"
+        id="fileInput"
+        type="file"
+        (change)="handleFileUpload($event)"
+      />
+      &nbsp; &nbsp; &nbsp; &nbsp;
+      <p>Upload your KRA PIN certificate (Required) Max file size 50 MB</p>
+    </div>
+    <hr />
+    <div class="date-picker">
+      <p>Select today's date (Required)</p>
+      <label for="registrationDate"></label>
+      <input
+        type="date"
+        id="registrationDate"
+        name="registrationDate"
+        (change)="handleFormChange($event)"
+      />
+    </div>
+    <hr />
+    <div class="grid-container">
+      <div class="grid-item">
+        <fieldset>
+          <p class="subtitle">
+            Have you been in business for more than six months?
+          </p>
+          <div class="radio-group">
+            <label>
+              <input
+                type="radio"
+                name="hasBeenInBusiness"
+                value="Yes"
+                [checked]="formData.hasBeenInBusiness === 'Yes'"
+                (change)="handleFormChange($event)"
+              />
+              Yes
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="hasBeenInBusiness"
+                value="No"
+                [checked]="formData.hasBeenInBusiness === 'No'"
+                (change)="handleFormChange($event)"
+              />
+              No
+            </label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="grid-item">
+        <button class="outlined-button" (click)="handleSetLocation()">
+          <i class="fas fa-map-pin"></i> Set Location
+        </button>
+      </div>
+    </div>
+    <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+  </form>
+</div>
+<app-footer></app-footer>

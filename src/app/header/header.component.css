@@ -1,0 +1,46 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.header .our-services {
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .header .our-services {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.header .text-wrapper {
+  color: #a95b1f;
+}
+
+.header .span {
+  color: #000000;
+}
+
+.header .text-wrapper-2 {
+  color: #ec6809;
+}
+
+.header .line {
+  width: 100%;
+  max-width: 200px;
+  height: 0.1rem;
+  background-color: #a95b1f;
+  margin-top: 10px;
+}
